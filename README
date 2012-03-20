@@ -1,0 +1,18 @@
+   ein pong-spiel fuer das grandiose udssr-oszilloskop aus chemnitz
+   gebastelt auf den chemnitzer linuxtagen 17./18.03.2012
+   autor: johannes <jkroll bei lavabit punkt com>
+   dieses programm ist gemeinfrei (public domain).
+   die idee zum benutzen des oszi als display stammt von schaf, seinen
+   coolen oszi-code findet man hier: http://s.drschaf.de/foo/
+   
+   die schlaeger werden gesteuert mit den tasten q/a und o/l
+   wenn eine weile keine tasten gedrueckt werden, bewegen sich die
+   schlaeger selbsttaetig (gegen computer spielen / 'demomodus')
+   
+   das oszi wird im x/y-modus an die soundkarte angeschlossen und so
+   als bildschirm zweckentfremdet.
+   der einfachheit halber wird zur audioausgabe OSS benutzt,
+   je nach distro muss ggf. das kernelmodul zur alsa-oss-emulation
+   installiert werden (snd_pcm_oss o.ae.)
+   
+   viel spass :o)
